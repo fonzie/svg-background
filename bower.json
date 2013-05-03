@@ -1,0 +1,8 @@
+{
+  "name": "svg-background",
+  "description": "SVG backgrounds with fallback for old IE",
+  "author": "Anthony Short",
+  "main": "index.scss",
+  "version": "0.1.0",
+  "license": "MIT"
+}

@@ -1,4 +1,5 @@
-@mixin svg-background($name, $ext: 'png') {
-  background-image: url('#{$name}.#{$ext}');
-  background-image: none, url('#{$name}.svg');
+@mixin fz-svgBackground($name) {
+  $filename: str-slice($name, 0, str-length($name) - 4);
+  background-image: url($name);
+  background-image: none, url('#{$filename}.svg');
 }
